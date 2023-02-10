@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "follow-nav": "/components/followNav",
+    "tab": "/components/tab",
+    "follow-list": "/components/followList"
+  }
+}

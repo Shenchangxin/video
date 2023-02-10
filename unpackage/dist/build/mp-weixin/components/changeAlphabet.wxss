@@ -1,0 +1,1 @@
+.changeAlphabet{position:fixed;top:150px;right:-8px;z-index:20;color:#fff}.list{width:30px}.item{text-align:center;line-height:15px;font-size:8px;color:#fff}.hover{text-align:center;line-height:15px;font-size:18px;color:#fff}

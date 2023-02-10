@@ -1,0 +1,1 @@
+<view class="listLeft"><view class="author">{{''+item.author+''}}</view><view class="title">{{''+item.title+''}}</view><view class="box"><view class="music">@开心麻花，开心到家@</view></view></view>

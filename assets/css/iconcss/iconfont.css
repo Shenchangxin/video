@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3848032 */
+  src: url('iconfont.woff2?t=1673013505484') format('woff2'),
+       url('iconfont.woff?t=1673013505484') format('woff'),
+       url('iconfont.ttf?t=1673013505484') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shanchu:before {
+  content: "\e61a";
+}
+
+.icon-bofang:before {
+  content: "\e87c";
+}
+
+.icon-gengduo:before {
+  content: "\e63b";
+}
+
+.icon-bianji:before {
+  content: "\e601";
+}
+
+.icon-xiangji:before {
+  content: "\e8bc";
+}
+
+.icon-chahao:before {
+  content: "\e663";
+}
+
+.icon-dingwei:before {
+  content: "\e62f";
+}
+
+.icon-xiangyoujiantou:before {
+  content: "\e645";
+}
+
+.icon-tubiaozhizuo-:before {
+  content: "\e60e";
+}
+
+.icon-heart-fill:before {
+  content: "\e737";
+}
+
+.icon-zhuanfa:before {
+  content: "\e611";
+}
+
+.icon-fanhui:before {
+  content: "\e600";
+}
+
+.icon-jiahao:before {
+  content: "\e626";
+}
+
+.icon-sousuo:before {
+  content: "\e60a";
+}
+

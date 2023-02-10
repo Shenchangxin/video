@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/videoPlayer"],{"0ef9":function(t,i,n){"use strict";(function(t){Object.defineProperty(i,"__esModule",{value:!0}),i.default=void 0;var n=null,e={props:["video","index"],data:function(){return{play:!1,dblClick:!1,autoplay:!1}},onReady:function(){this.videoContext=t.createVideoContext("myVideo",this)},methods:{click:function(){var t=this;clearTimeout(n),this.dblClick=!this.dblClick,n=setTimeout((function(){t.dblClick?!1===t.play?t.playThis():t.pause():t.$emit("changeClick"),t.dblClick=!1}),300)},player:function(){!1===this.play&&(this.videoContext.seek(0),this.videoContext.play(),this.play=!0)},pause:function(){!0===this.play&&(this.videoContext.pause(),this.play=!1)},playThis:function(){!1===this.play&&(this.videoContext.play(),this.play=!0)},auto:function(){0===this.index&&(this.autoplay=!0,this.play=!0)}},created:function(){this.auto()}};i.default=e}).call(this,n("543d")["default"])},"148f":function(t,i,n){},"1c36":function(t,i,n){"use strict";n.r(i);var e=n("0ef9"),a=n.n(e);for(var o in e)["default"].indexOf(o)<0&&function(t){n.d(i,t,(function(){return e[t]}))}(o);i["default"]=a.a},"33f8":function(t,i,n){"use strict";var e=n("148f"),a=n.n(e);a.a},ad79:function(t,i,n){"use strict";n.r(i);var e=n("b7bf"),a=n("1c36");for(var o in a)["default"].indexOf(o)<0&&function(t){n.d(i,t,(function(){return a[t]}))}(o);n("33f8");var u=n("f0c5"),l=Object(u["a"])(a["default"],e["b"],e["c"],!1,null,null,null,!1,e["a"],void 0);i["default"]=l.exports},b7bf:function(t,i,n){"use strict";n.d(i,"b",(function(){return e})),n.d(i,"c",(function(){return a})),n.d(i,"a",(function(){}));var e=function(){var t=this.$createElement;this._self._c},a=[]}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/videoPlayer-create-component',
+    {
+        'components/videoPlayer-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("ad79"))
+        })
+    },
+    [['components/videoPlayer-create-component']]
+]);

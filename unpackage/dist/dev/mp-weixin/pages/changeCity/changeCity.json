@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "change-header": "/components/changeHeader",
+    "change-list": "/components/changeList",
+    "change-alphabaet": "/components/changeAlphabet"
+  }
+}

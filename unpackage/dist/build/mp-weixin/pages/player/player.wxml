@@ -1,0 +1,1 @@
+<view class="player"><view class="iconfont icon-fanhui iconfanhui"></view><view class="footer">留下你的精彩评论吧</view><video-list vue-id="02ed2720-1" list="{{list}}" bind:__l="__l"></video-list></view>

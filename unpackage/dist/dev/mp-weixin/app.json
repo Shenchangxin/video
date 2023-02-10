@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/player/player",
+    "pages/changeInfo/changeInfo",
+    "pages/modify/modify",
+    "pages/personal/personal",
+    "pages/news/news",
+    "pages/friend/friend",
+    "pages/follow/follow",
+    "pages/city/city",
+    "pages/changeCity/changeCity"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationStyle": "custom",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index"
+      },
+      {
+        "pagePath": "pages/follow/follow"
+      },
+      {
+        "pagePath": "pages/friend/friend"
+      },
+      {
+        "pagePath": "pages/news/news"
+      },
+      {
+        "pagePath": "pages/personal/personal"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
