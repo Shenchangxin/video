@@ -182,7 +182,7 @@
 				mode="aspectFill" 
 				style="width: 750rpx;height: 750rpx; box-shadow: inset 0 -150px 180px #313030;"></image>
 			
-			<!-- 安卓下使用一个灰色图片来替代阴影效果，ios支持阴影，安卓则不支持，，，坑爹 -_-!!! -->
+			<!-- 安卓下使用一个灰色图片来替代阴影效果，ios支持阴影，安卓则不支持 -->
 			<image v-if="isAndroid" class="page" @click.self="changeMyBg()" src="../../static/images/bg.png" mode="aspectFill" style="width: 750rpx;height: 700rpx;opacity: 0.5;"></image>
 			
 			<view style="position: relative; left: 30rpx;top: -560rpx;display: flex;flex-direction: column;width: 500rpx;">
@@ -194,7 +194,7 @@
 					<view style="margin-left: 30rpx;padding-top: 20rpx;">
 						<text style="font-size: 20px;color: #FFFFFF;font-weight: 600;">{{pageUserInfo.nickname}}</text>
 						<view style="display: flex;flex-direction: row;">
-							<text style="font-size: 10px;color: #FFFFFF;font-weight: 300;">慕红书号：</text>
+							<text style="font-size: 10px;color: #FFFFFF;font-weight: 300;">推推号：</text>
 							<text style="font-size: 10px;color: #FFFFFF;font-weight: 300;">{{pageUserInfo.imoocNum}}</text>
 						</view>
 
@@ -214,7 +214,7 @@
 			</view>
 			
 			<text style="position: relative; top: -520rpx;color: #ffffff;font-size: 14px;margin: 0 30rpx;">{{pageUserInfo.description}}</text>
-			<!-- <text style="position: relative; top: -520rpx;color: #ffffff;font-size: 14px;margin: 0 30rpx;">10年＋IT互联网老司机。5年在线教育经验。曾任技术经理、项目经理、技术总监、部门经理。福瑞博课创始人&CTO。</text> -->
+			
 			
 			<view style="position: relative; top: -510rpx;display: flex;flex-direction: row;justify-content: space-between;">
 				<view style="display: flex;flex-direction: row;">
@@ -399,7 +399,6 @@
 						// 背景图片
 						var userBgImg = me.pageUserInfo.bgImg;
 						if (app.isStrEmpty(me.pageUserInfo.bgImg)) {
-							// userBgImg = "../../static/face/face-arrow-1.png";
 							userBgImg = "../../static/images/defaultBgImg.png";
 						}
 						me.userBgImg = userBgImg;

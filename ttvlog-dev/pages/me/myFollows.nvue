@@ -115,19 +115,19 @@
 					{
 						"vlogerId": "1001",
 						"face": "../../static/face/face-arrow-1.png",
-						"nickname": "风间影月",
+						"nickname": "西门吹雪",
 						"followed": false
 					}, 
 					{
 						"vlogerId": "1002",
 						"face": "../../static/face/face-arrow-1.png",
-						"nickname": "慕课网",
+						"nickname": "推推",
 						"followed": true
 					},
 					{
 						"vlogerId": "1003",
 						"face": "../../static/face/face-arrow-1.png",
-						"nickname": "风间影月",
+						"nickname": "菠萝吹雪",
 						"followed": false
 					}
 				]

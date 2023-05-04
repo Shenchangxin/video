@@ -159,7 +159,7 @@
 		data() {
 			return {
 				searchContent: "",
-				historyList: ['风间影月', '慕课网', 'imooc', '蝙蝠侠', '灌篮高手', '蜘蛛侠', '钢铁侠']
+				historyList: ['西门吹雪', '推推站', 'tourbillion', '蝙蝠侠', '灌篮高手', '蜘蛛侠', '钢铁侠']
 			}
 		},
 		onLoad(option) {

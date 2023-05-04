@@ -135,21 +135,6 @@
 
 <template>
 	<view class="page">
-		<!-- 这里是状态栏, 每个页面都需要有，目的不让页面覆盖状态栏 -->
-		<!-- <view :style="{height: statusBarHeight + 'px'}"></view>
-		<view class="header" :style="{marginTop:statusBarHeight+'px'}">
-			<image class="header-right-search"
-					src="../../static/images/icon-back.png"  
-					style="width: 40rpx;height: 40rpx;opacity: 0.8;" @click="back()"/>			
-			<view class="header-center">
-				<view class="header-item">
-					<text class="header-item-title">发布视频</text>
-				</view>
-			</view>
-			<image class="header-right-search" 
-					src="../../static/images/icon-search.png"  
-					style="width: 50rpx;height: 50rpx;opacity: 0.8;">
-		</view> -->
 		
 		<!-- 进度条 -->
 		<view 

@@ -57,30 +57,7 @@
 </style>
 <template>
 	<view class="page">
-		<!-- <view class="line"></view> -->
-		
 		<scroll-view scroll-y="true">
-			<!-- <view style="display: flex;flex-direction: row;justify-content: space-between;padding: 20rpx;">
-				<view style="display: flex;flex-direction: column;justify-content: center;">
-					<image src="/static/imooc/lee.jpeg" mode="widthFix" class="fengjianyingyue" style="align-self: center;"></image>
-					<image src="/static/imooc/fengjianyingyue.png" mode="widthFix" class="fengjianyingyue-name" style="align-self: center;"></image>
-				</view>
-
-			</view>
-
-			<view style="display: flex;flex-direction: row;justify-content: center;margin-top: 20rpx;">
-				<image src="/static/imooc/course-javaarchitect.png" mode="widthFix" class="course" style="width: 380rpx;"></image>
-			</view>
-
-			<view style="display: flex;flex-direction: row;justify-content: space-between;margin-top: 20rpx;padding-left: 30rpx;padding-right: 30rpx;">
-				<image src="/static/imooc/course-pm.png" mode="widthFix" class="course" style=""></image>
-				<image src="/static/imooc/course-springcloud.png" mode="widthFix" class="course" style=""></image>
-			</view>
-			
-			<view style="display: flex;flex-direction: row;justify-content: space-between;margin-top: 20rpx;padding-left: 30rpx;padding-right: 30rpx;">
-				<image src="/static/imooc/course-netty.png" mode="widthFix" class="course" style=""></image>
-				<image src="/static/imooc/course-zookeeper.png" mode="widthFix" class="course" style=""></image>
-			</view> -->
 			
 			<view 
 				:class="{'logout':!logoutTouched, 'logout-touched': logoutTouched}" 

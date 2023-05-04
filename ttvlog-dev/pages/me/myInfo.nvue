@@ -83,7 +83,7 @@
 			</view>
 			
 			<view class="single-line-box" @click="modifyIMoocNum()">
-				<text class="left-lable" style="align-self: center;">慕课号</text>
+				<text class="left-lable" style="align-self: center;">推推号</text>
 				
 				<view class="right-part">
 					<text class="right-content" style="align-self: center;">{{myInfo.imoocNum}}</text>
@@ -179,7 +179,7 @@
 				})
 			},
 			
-			// 修改慕课号
+			// 修改推推号
 			modifyIMoocNum() {
 				uni.navigateTo({
 					animationType: "fade-in",
