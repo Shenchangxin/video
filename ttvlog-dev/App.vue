@@ -4,7 +4,9 @@
 	import districtList from './json/area_district.js';
 	export default {
 		globalData: {  
-			serverUrl: "http://124.220.160.59:8080",		// 生产环境
+			serverUrl: "http://124.220.160.59:8080",// 生产环境
+			// serverUrl: "https://www.shenchangxin.cloud:8080",
+			// serverUrl: "http://localhost:8080",
 			
 			provinceList: provinceList,
 			cityList: cityList,

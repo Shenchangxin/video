@@ -121,7 +121,12 @@
     },
     "h5" : {
         "devServer" : {
-            "port" : 8081
+            "port" : 8099,
+            "https" : true
+        },
+        "router" : {
+            "base" : "/ttvlog",
+            "mode" : "hash"
         }
     }
 }
